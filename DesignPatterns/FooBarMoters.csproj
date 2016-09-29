@@ -50,6 +50,16 @@
     <Compile Include="AbstractImplementations\AbstractCar.cs" />
     <Compile Include="AbstractImplementations\AbstractVan.cs" />
     <Compile Include="AbstractImplementations\AbstractVehicle.cs" />
+    <Compile Include="Factories\AbstractVehicleFactory.cs" />
+    <Compile Include="Interface\IBody.cs" />
+    <Compile Include="Interface\IChassis.cs" />
+    <Compile Include="Interface\IGlassware.cs" />
+    <Compile Include="PartsImpementations\CarBody.cs" />
+    <Compile Include="PartsImpementations\CarChassis.cs" />
+    <Compile Include="PartsImpementations\CarGlassware.cs" />
+    <Compile Include="PartsImpementations\VanBody.cs" />
+    <Compile Include="PartsImpementations\VanChassis.cs" />
+    <Compile Include="PartsImpementations\VanGlassware.cs" />
     <Compile Include="VehicleImplementations\Pickup.cs" />
     <Compile Include="VehicleImplementations\BoxVan.cs" />
     <Compile Include="VehicleImplementations\Coupe.cs" />
